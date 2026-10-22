@@ -1,1 +1,1 @@
-
+{ supabase } from ‘./supabase’;
