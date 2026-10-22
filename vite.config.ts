@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/roxx-win-game-updated/',
+
+    plugins: [react(), tailwindcss()],
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
